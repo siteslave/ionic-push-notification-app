@@ -44,7 +44,8 @@ angular.module('starter.GCM', [])
     };
   })
   .factory('GCMService', function ($q, $http) {
-    let url = 'http://192.168.43.76:3000';
+    // let url = 'http://192.168.43.76:3000';
+    let url = 'http://hdc.kkh.go.th:3000';
     return {
       registerDevice(username, token) {
         let q = $q.defer();

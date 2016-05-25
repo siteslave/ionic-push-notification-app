@@ -3,7 +3,7 @@ angular.module('starter', ['ionic', 'starter.GCM'])
 
   .run(function ($rootScope, $ionicPlatform, $log, $ionicPopup, GCMService) {
     $rootScope.users = [];
-    $rootScope.username = 'Satit';
+    $rootScope.username = 'monalisa';
 
     $ionicPlatform.ready(function () {
       if (window.cordova && window.cordova.plugins.Keyboard) {
